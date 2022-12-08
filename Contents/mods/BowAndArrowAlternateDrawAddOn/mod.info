@@ -1,0 +1,7 @@
+name=Bow and Arrow Alternative Drawing Add-On
+poster=poster.png
+id=MandelaBowAndArrowAltDrawAddOn
+versionMin=41.0
+description=Hold left mouse to draw about half of a second to draw.
+icon=icon.png
+require=MandelaBowAndArrow

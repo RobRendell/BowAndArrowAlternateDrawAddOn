@@ -1,0 +1,6 @@
+version=1
+title=Bow and Arrow Alternative Drawing Add-On
+description=Changes the input method for firing the bow.  Hold the left mouse button to draw, and release to fire.
+description=Drawing takes about half of a second.  Release the right mouse button to cancel the shot.
+tags=
+visibility=public
