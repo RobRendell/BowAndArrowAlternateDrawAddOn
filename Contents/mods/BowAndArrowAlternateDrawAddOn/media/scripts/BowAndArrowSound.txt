@@ -1,0 +1,60 @@
+module Base
+{    
+    sound BowDraw
+    {
+        category = Item,
+        clip
+        {
+            file = media/sound/BowDraw.wav,
+            distanceMax = 20,
+        }
+    }
+    sound BowFire
+    {
+        category = Item,
+        clip
+        {
+            file = media/sound/BowFire.wav,
+            distanceMax = 20,
+        }
+    }
+    sound ArrowFly
+    {
+        category = Item,
+        clip
+        {
+            file = media/sound/ArrowFly.wav,
+            distanceMax = 20,
+        }
+    }
+
+    sound ArrowHit
+    {
+        category = Item,
+        clip
+        {
+            file = media/sound/ArrowHit.wav,
+            distanceMax = 20,
+        }
+    }
+    sound FleshHit
+    {
+        category = Item,
+        clip
+        {
+            file = media/sound/FleshHit.wav,
+            distanceMax = 20,
+        }
+    }
+    sound HeadHit
+    {
+        category = Item,
+        clip
+        {
+            file = media/sound/HeadHit.wav,
+            distanceMax = 20,
+        }
+    }
+
+
+}
