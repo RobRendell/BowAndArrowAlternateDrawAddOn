@@ -21,7 +21,7 @@ function ISToolTipInv:prerender()
             baseModOverriddenRender(self)
         end
     end
-
+    ISToolTipInv.prerender = MandelaBowAndArrow.Client.altDrawOriginalTooltipPrerender
 end
 
 -- Show the item condition of bow strings when expanding a stack in the inventory panel.  Include the previous
