@@ -26,9 +26,10 @@ local function doAlternateDrawAlterations()
             if character:isAiming() and attackData.bowDrawnFrames >= attackData.drawTime then
                 if attackData.weapon:getCurrentAmmoCount() == 0 then
                     -- Dry-firing the bow damages it.
-                    character:Say('No arrow!')
+                    character:Say(getText("UI_no_arrow"))
                     character:playSound("ArrowHit");
                     attackData.weapon:setCondition(attackData.weapon:getCondition() - 2);
+                    MandelaBowAndArrow.Client.SetBowAndArrowModel(character, attackData.weapon, 1);
                 else
                     -- Override the bow's attack sound.
                     attackData.weapon:setSwingSound("BowFire")
