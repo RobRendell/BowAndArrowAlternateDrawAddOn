@@ -1,8 +1,33 @@
 version=1
 id=2900287489
 title=Bow and Arrow Alternative Drawing Add-On
-description=Changes the input method for firing the bow.  Hold the attack button while aiming to draw, and release
-description= to fire.  Drawing takes about half of a second, and gets faster with higher Archery skill - the bow
-description= flexes and the draw sound stops when the bow is fully drawn.  Stop aiming to cancel the shot.
+description=This mod changes the input method for firing the bow.  Hold the attack button while aiming to draw, and release to fire.
+description=
+description=This is the same interface as the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url] mod, but it adds it to the base [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2208315526]Bow and Arrow[/url] mod as an add-on, rather than replacing that mod entirely (and duplicating its code).
+description=
+description=
+description=This mod uses the custom sounds from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url], with kind permission from Cool down.
+description=
+description=[h1]Details[/h1]
+description=[list]
+description=[*] If the player is aiming with a bow, they can hold down the attack button to draw the bow, and release the attack button to loose the arrow.  This is not hard-coded to the left mouse button, but should work with whatever attack button you have configured.
+description=[*] Plays custom sounds for drawing the bow, firing the bow, dry-firing the bow, hitting a zombie in the body or hitting a zombie in the head.
+description=[*] Dry-firing the bow (drawing and loosing without nocking an arrow) damages the bow.
+description=[*] The time it takes to draw the bow decreases as your Archery skill increases.  It starts off being more than half a second, but drops rapidly over the first few levels of Archery.
+description=[*] When the bow is ready to fire, the "drawing the bow" sound will stop, and the bow will flex.
+description=[*] Stop aiming to cancel the shot.
+description=[/list]
+description=
+description=[h1]Thanks[/h1]
+description=
+description=I'd like to give thanks to
+description=[list]
+description=[*] Gluten the sensitive, for the wonderful [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2208315526]Bow and Arrow[/url] mod.  Archery and zombie apocalypses are two great flavours that taste great together!
+description=[*] Cool down, for making the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url] mod whose UX I prefer, and for permission to use their code and assets to make this mod.
+description=[*] NalMac, for discussions and encouragement.
+description=[*] The folks on the Project Zomboid #modding Discord channel, for answering my many questions.
+description=[*] And of course The Indie Stone, for Project Zomboid.
+description=[/list]
+description=
 tags=Build 41;Interface;Weapons
 visibility=public
