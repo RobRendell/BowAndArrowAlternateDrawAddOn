@@ -6,7 +6,7 @@ description=
 description=This is the same interface as the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url] mod, but it adds it to the base [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2208315526]Bow and Arrow[/url] mod as an add-on, rather than replacing that mod entirely (and duplicating its code).
 description=
 description=
-description=This mod uses the custom sounds from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url], with kind permission from Cool down.
+description=This mod uses the custom sounds from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url], with kind permission from Chill down.
 description=
 description=[h1]Details[/h1]
 description=[list]
@@ -23,7 +23,7 @@ description=
 description=I'd like to give thanks to
 description=[list]
 description=[*] Gluten the sensitive, for the wonderful [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2208315526]Bow and Arrow[/url] mod.  Archery and zombie apocalypses are two great flavours that taste great together!
-description=[*] Cool down, for making the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url] mod whose UX I prefer, and for permission to use their code and assets to make this mod.
+description=[*] Chill down, for making the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url] mod whose UX I prefer, and for permission to use their code and assets to make this mod.
 description=[*] NalMac, for discussions and encouragement.
 description=[*] The folks on the Project Zomboid #modding Discord channel, for answering my many questions.
 description=[*] And of course The Indie Stone, for Project Zomboid.
