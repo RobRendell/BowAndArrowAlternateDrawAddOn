@@ -11,10 +11,11 @@ local function doAlternateDrawAlterations()
     -- Override setUpBow so that a player doesn't draw their bow by simply aiming.
     MandelaBowAndArrow.Client.setUpBow = function(player, bow)
         local playerModData = MandelaBowAndArrow.Shared.getModData(player);
-        if player:isAiming() then
-            playerModData.aiming = true
-        else
+        if not player:isAiming() then
             MandelaBowAndArrow.Client.altDrawOriginalSetUpBow(player, bow)
+        elseif not playerModData.aiming then
+            playerModData.aiming = true
+            MandelaBowAndArrow.Client.SetBowAndArrowModel(player, bow, 1);
         end
     end
 
