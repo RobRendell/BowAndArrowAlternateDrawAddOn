@@ -1,0 +1,27 @@
+module MandelaBowAndArrow
+{
+	imports
+	{
+		Base
+	}
+
+    recipe Bundle Arrows
+    {
+        MandelaArrowWoodDucttapeIron=20,
+
+        Result:MandelaArrowBundle,
+        Time:20.0,
+		IsHidden:true,
+    }
+
+    recipe Make Arrow
+    {
+        MandelaArrowBlank/MandelaAttachmentShaftWood/MBAArrowShaftWood,
+        MandelaArrowHeadIron/MandelaArrowHeadIron2,
+        MandelaFletchingsDuctTape/MandelaFletchings,
+
+        Result:MandelaArrowWoodDucttapeIron,
+        Time:20.0,
+		IsHidden:true,
+    }
+}
