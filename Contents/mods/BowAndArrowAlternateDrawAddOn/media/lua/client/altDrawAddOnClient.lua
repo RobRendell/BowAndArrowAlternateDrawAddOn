@@ -10,6 +10,9 @@ local function doAlternateDrawAlterations()
 
     -- Override setUpBow so that a player doesn't draw their bow by simply aiming.
     MandelaBowAndArrow.Client.setUpBow = function(player, bow)
+        -- Change from the official MandelaArrowWoodDucttapeIronAttachment type to MandelaArrowWoodDucttapeIron, since
+        -- MandelaArrowWoodDucttapeIronAttachment doesn't work for the Weapon Condition Mod's ammo count anyway.
+        bow:setAmmoType("Base.MandelaArrowWoodDucttapeIron")
         -- Change the subcategory of bows so they're not considered firearms.
         bow:setSubCategory("Bow");
         local playerModData = MandelaBowAndArrow.Shared.getModData(player);
