@@ -37,6 +37,9 @@ local function doAlternateDrawAlterations()
                     -- Let the base mod's code handle it from here.
                     MandelaBowAndArrow.Client.altDrawOriginalAttackHook(character, 1, attackData.weapon)
                 end
+            else
+                -- Stop playing the sound of the bow being drawn.
+                character:getEmitter():stopOrTriggerSound(attackData.drawSoundId)
             end
             attackData.bowDrawnFrames = 0
             attackData.weapon = nil
