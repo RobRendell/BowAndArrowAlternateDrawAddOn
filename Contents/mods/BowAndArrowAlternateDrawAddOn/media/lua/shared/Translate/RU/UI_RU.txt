@@ -1,3 +1,3 @@
-UI_ES = {
+UI_RU = {
     UI_no_arrow = "Нет стрелки!"
 }
