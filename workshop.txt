@@ -6,7 +6,7 @@ description=
 description=This is the same interface as the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url] mod, but it adds it to the base [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2208315526]Bow and Arrow[/url] mod as an add-on, rather than replacing that mod entirely (and duplicating its code).
 description=
 description=
-description=This mod uses the custom sounds from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url], with kind permission from Chill down.
+description=This mod uses the custom sounds from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url], with kind permission from Chill Down.
 description=
 description=[h1]Details[/h1]
 description=[list]
@@ -18,12 +18,19 @@ description=[*] When the bow is ready to fire, the "drawing the bow" sound will 
 description=[*] Stop aiming to cancel the shot.
 description=[/list]
 description=
+description=[h1]Important![/h1]
+description=Chill Down's "Bow and Arrow alternative Drawing" mod uses the same mod ID as Gluten the sensitive's "Bow and Arrow" mod (MandelaBowAndArrow).  This means that installing both mods at once can confuse Project Zomboid (even if you attempt to disable one or the other).
+description=
+description=This mod is designed to be used in conjunction with Gluten the sensitive's "Bow and Arrow" mod, but PZ will think all is well if you have "Bow and Arrow alternative Drawing" installed (due to them having the same mod ID).  This will cause strange behaviour, however.
+description=
+description=The upshot is that you will need to unsubscribe from Chill Down's "Bow and Arrow alternative Drawing" mod (not simply disable to) if you want to use this mod.
+description=
 description=[h1]Thanks[/h1]
 description=
 description=I'd like to give thanks to
 description=[list]
 description=[*] Gluten the sensitive, for the wonderful [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2208315526]Bow and Arrow[/url] mod.  Archery and zombie apocalypses are two great flavours that taste great together!
-description=[*] Chill down, for making the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url] mod whose UX I prefer, and for permission to use their code and assets to make this mod.
+description=[*] Chill Down, for making the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2830364476]Bow and Arrow Alternative Drawing[/url] mod whose UX I prefer, and for permission to use their code and assets to make this mod.
 description=[*] NalMac, for discussions and encouragement.
 description=[*] The folks on the Project Zomboid #modding Discord channel, for answering my many questions.
 description=[*] And of course The Indie Stone, for Project Zomboid.
